@@ -13,13 +13,7 @@ function App() {
     localStorage.setItem('token', newToken);
     navigate('/products');
   };
-
-  // const handleLogout = () => {
-  //   setToken('');
-  //   localStorage.removeItem('token');
-  //   navigate('/login');
-  // };
-
+  
   return (
     <div className="App">
       <Routes>
